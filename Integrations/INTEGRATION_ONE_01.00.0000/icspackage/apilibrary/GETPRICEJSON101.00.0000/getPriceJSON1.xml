@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<api-library>
+    <name>getPriceJSON1</name>
+    <code>GETPRICEJSON1</code>
+    <version>01.00.0000</version>
+    <description>adding new library</description>
+    <implementationType>JAVASCRIPT</implementationType>
+    <sources>
+        <source>
+            <fileName>getPriceJSON.js</fileName>
+            <apiDefinitions>
+                <api apiid="GETPRICEJSON1:01.00.0000:getPriceJSON.js:getPriceJSON:str:val">
+                    <classification>ORCHESTRATION</classification>
+                    <duplicateFnFlag>false</duplicateFnFlag>
+                    <name>getPriceJSON</name>
+                    <inputParameters>
+                        <input>
+                            <icon>/oracle/ics/webconsole/view/images/string_24_ena.png</icon>
+                            <name>str</name>
+                            <type>string</type>
+                        </input>
+                        <input>
+                            <icon>/oracle/ics/webconsole/view/images/string_24_ena.png</icon>
+                            <name>val</name>
+                            <type>string</type>
+                        </input>
+                    </inputParameters>
+                    <libraryCode>GETPRICEJSON1</libraryCode>
+                    <classification>ORCHESTRATION</classification>
+                    <classification>XPATH</classification>
+                    <outputParameters>
+                        <output>
+                            <icon>/oracle/ics/webconsole/view/images/string_24_ena.png</icon>
+                            <name>xmlString</name>
+                            <type>string</type>
+                        </output>
+                    </outputParameters>
+                    <unsupportedSyntax>false</unsupportedSyntax>
+                </api>
+            </apiDefinitions>
+            <libraryCode>GETPRICEJSON1</libraryCode>
+        </source>
+    </sources>
+</api-library>

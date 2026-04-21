@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<oracle-xsl-webmapper:StateInfo xmlns:oracle-xsl-webmapper="http://www.oracle.com/xsl/webmapper/state" version="1.1">
+    <oracle-xsl-webmapper:ErrorsCount>0</oracle-xsl-webmapper:ErrorsCount>
+    <oracle-xsl-webmapper:WarningsCount>0</oracle-xsl-webmapper:WarningsCount>
+    <oracle-xsl-webmapper:IsImported>false</oracle-xsl-webmapper:IsImported>
+    <oracle-xsl-webmapper:HasMappings>true</oracle-xsl-webmapper:HasMappings>
+    <oracle-xsl-webmapper:StateInfoIsStale>false</oracle-xsl-webmapper:StateInfoIsStale>
+    <oracle-xsl-webmapper:AllSources>
+        <element xmlns:ns3="http://xmlns.oracle.com/cloud/adapter/REST/getlist_REQUEST/types">ns3:execute</element>
+        <uriAbsoluteLocation>file:/tmp/WC/itg_7591594c-200a-492b-b4cb-f0903800cbf5/resources/application_13/outbound_14/resourcegroup_15/getlist_REQUEST.wsdl</uriAbsoluteLocation>
+        <primary>true</primary>
+    </oracle-xsl-webmapper:AllSources>
+    <oracle-xsl-webmapper:TrackedFunctionsReferenced>
+        <category>User_Defined</category>
+        <functionName>getPriceJSON</functionName>
+        <functionNamespace>http://www.oracle.com/XSL/Transform/java/oracle.tip.pc.services.functions.JsExecutor_xpath579724130</functionNamespace>
+        <functionTestableDesignTime>true</functionTestableDesignTime>
+        <functionTracked>false</functionTracked>
+        <hasRepeatingParam>false</hasRepeatingParam>
+        <lookupFunction>false</lookupFunction>
+        <mandatoryParamCount>0</mandatoryParamCount>
+        <optionalParamCount>0</optionalParamCount>
+        <parameterPositionOfLookupTable>0</parameterPositionOfLookupTable>
+    </oracle-xsl-webmapper:TrackedFunctionsReferenced>
+</oracle-xsl-webmapper:StateInfo>
